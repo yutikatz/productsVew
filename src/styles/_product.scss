@@ -1,0 +1,37 @@
+ .one-product {
+    border: solid 5px #EA4C89;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    min-width: 25vh;
+    min-height: 25vw;
+
+ }
+ .margin-5{
+   margin-top: 5px;
+ }
+.product-image{
+   width: 200px;
+   height: 200px;
+}
+ .file {
+    margin-top: 50px;
+    width: 200px;
+ }
+ .delete {
+   margin-top: 5vh;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .wrap-input-2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    &>*:not(.button-1) {
+       width: 80px;
+    }
+ }
